@@ -1,22 +1,48 @@
-AI-Enabled IoT Air Pollution Monitoring System
+# AI-Enabled IoT-Based Air Pollution Monitoring System
 
-This project is a real-time air quality monitoring system built using Arduino Uno, MQ135 gas sensor, DHT11 temperature & humidity sensor, and Python. It logs data via serial communication and displays it on an LCD. A gas leak detection feature is included to improve home safety. Designed for offline functionality with plans for future web/cloud integration.
+A smart, voice-interactive air pollution monitoring system that detects gas levels, temperature, and humidity in real time using Arduino sensors. The system classifies air quality into various health-impact levels and speaks out alerts using AI-powered voice synthesis. It also warns the user about gas leaks to prevent mishaps.
 
-## Features
-- Real-time air quality monitoring (CO₂, temperature, humidity)
-- Data logging using Python scripts
-- Gas leak alert system for enhanced safety
-- LCD display for local data view
-- Designed for offline use without WiFi modules
+---
 
-## Technologies Used
-- Arduino IDE (C/C++)
-- Python (Serial communication & data logging)
-- MQ135, DHT11 sensors
-- 16×2 LCD Display
-- GitHub for version control
+## 📌 Project Highlights
+- 🔍 Real-time air quality monitoring using **MQ135** and **DHT11**
+- 🗣️ AI voice alerts using **pyttsx3**
+- 🔒 Gas leak detection for enhanced safety
+- 🧠 Classification logic (Good, Moderate, Poor)
+- 🔁 Serial communication between **Arduino Uno** and **Python**
+- ⚙️ Easily extendable to AI/ML and cloud dashboard features
 
-## Future Scope
-- Live data visualization on a web dashboard
-- Cloud storage integration
-- Mobile notification for gas alerts
+---
+
+## ⚙️ Hardware Used
+- Arduino Uno
+- MQ135 Gas Sensor
+- DHT11 Temperature & Humidity Sensor
+- USB Cable
+- Jumper Wires
+- (Optional) 16x2 LCD Display
+
+---
+
+## 💻 Technologies & Libraries
+- **Languages**: C++, Python  
+- **Tools**: Arduino IDE, VS Code  
+- **Python Libraries**:
+  - `pyserial`
+  - `pyttsx3`
+  - (Optional) `scikit-learn` for future ML
+  - (Optional) `pandas` for data logging
+
+---
+
+## 🧠 How It Works
+1. Arduino reads values from MQ135 (gas) and DHT11 (temp + humidity).
+2. Sends sensor data via serial to Python script.
+3. Python:
+   - Classifies the air quality (Good, Moderate, Poor, etc.).
+   - Gives voice alerts for current air quality and gas leaks using `pyttsx3`.
+4. (Optional) Log data or train ML models using historical readings.
+
+---
+
+
