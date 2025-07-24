@@ -1,4 +1,4 @@
-# IoT-Based Air Pollution Monitoring System
+AI-Enabled IoT Air Pollution Monitoring System
 
 This project is a real-time air quality monitoring system built using Arduino Uno, MQ135 gas sensor, DHT11 temperature & humidity sensor, and Python. It logs data via serial communication and displays it on an LCD. A gas leak detection feature is included to improve home safety. Designed for offline functionality with plans for future web/cloud integration.
 
