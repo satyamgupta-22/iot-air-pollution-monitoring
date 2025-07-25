@@ -43,6 +43,7 @@ A smart, voice-interactive air pollution monitoring system that detects gas leve
    - Gives voice alerts for current air quality and gas leaks using `pyttsx3`.
 4. (Optional) Log data or train ML models using historical readings.
 
----
+---Satyam (GitHub: [satyamgupta-22])
+Third-year Engineering Student | IoT & AI Enthusiast
 
 
